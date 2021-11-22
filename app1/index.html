@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{%block body_block %}
+
+<h1> Hello World! index Page home</h1>
+<h2> Injected Content: {{ injectme }}</h2>
+
+<table style="width:100%">
+  <tr>
+    <td>Emil</td>
+    <td>Tobias</td>
+    <td>Linus</td>
+    <td>button</td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td>14</td>
+    <td>10</td>
+    <td>button</td>
+    <form action="#" method="get">
+ <input type="text" value="8" name="mytextbox" size="1"/>
+<input id="submit" type="button" value="Click" data_url/>
+</form>
+  </tr>
+</table>
+{% endblock %}
